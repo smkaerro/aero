@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;	
+}
+
+.header{
+	background:linear-gradient( #ff9c0e, #ffca80);
+	width:700px;
+	height:125px;
+	margin: 20px auto 10px auto;
+	border-radius:10px 20px;
+	box-shadow:5px 5px 10px black;
+	line-height:125px;
+	position:relative;
+}
+.header img{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	width:70px;
+	height:70px;
+	margin:auto;
+	left:20px;
+	transition: opacity 0.4s;
+}
+
+.header img:hover{
+	width:90px;
+	height:90px;	
+}
+
+.mybutton{
+background-color:#a84422;
+display:inline-block;
+width:120px;
+height:20px;
+margin:5px;
+padding:20px;
+text-decoration:none;
+color:black;
+text-transform:uppercase;
+border-radius:3px 10PX;
+font-weight:bold;
+letter-spacing:1px;
+box-shadow: 3px 3px 5px #888888;
+transition: background linear 0.3s;
+line-height:20px;
+text-align:center;
+}
+
+.mybutton:hover{
+background:#dc7756;
+}
+#btn1:hover ~.myimage {
+background:url("raj.jpg") no-repeat center;
+background-size:contain;
+}
+#btn2:hover~.myimage{
+background:url("vj.jpg") no-repeat center;
+background-size:contain;
+}
+#btn3:hover ~ .myimage{
+background:url("ssk.jpg") no-repeat center;
+background-size:contain;
+}
+#btn4:hover + .myimage{
+background:url("jdk.jpg") no-repeat center;
+background-size:contain;
+}
+
+#btn5:hover ~.myimage{
+background:url("raj1.jpg") no-repeat center;
+background-size:contain;
+}
+#btn6:hover~.myimage{
+background:url("vj1.jpg") no-repeat center;
+background-size:contain;
+}
+#btn7:hover ~ .myimage{
+background:url("ssk1.jpg") no-repeat center;
+background-size:contain;
+}
+#btn8:hover ~.myimage{
+background:url("jdk1.jpg") no-repeat center;
+background-size:contain;
+}
+
+.myimage{
+	display:block;
+	background: url("heli.jpg") no-repeat center;
+	width:600px;
+	height:300px;
+	background-size:cover;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	box-shadow:10px 10px 15px black;
+}
+
+.workarea{
+	background-color:gold;
+	background:linear-gradient( #ff9c0e, #ffca80);
+	width:700px;
+	height:2000px;
+	margin: 10px auto 10px auto;
+	border-radius:20px 20px;
+	box-shadow:5px 5px 10px black;
+	line-height:125px;
+	position:relative;
+}
+
+.slogan{
+	font-family: 'Playfair Display', serif;
+	font-size:50px;
+	right:25px;
+	position:absolute;
+}
+
+body{
+	background-color:aqua;
+	background:linear-gradient(#993300,#ff661a);
+}
